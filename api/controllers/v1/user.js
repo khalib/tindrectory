@@ -9,8 +9,10 @@ function UserController(request, reply, config) {
    * Get a list of users.
    */
   that.list = function() {
+    var limit = that.getQuery('limit', 3, 'number');
     var options = {};
-    User.getUsers({}, function(err, users) {
+
+    User.getUsers({}, options, function(err, users) {
       that.response(users);
     });
   };

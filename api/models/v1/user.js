@@ -39,8 +39,8 @@ var userSchema = new Schema({
  * @param options
  * @param callback
  */
-userSchema.statics.getUsers = function(options, callback) {
-  this.find(options, function(err, res) {
+userSchema.statics.getUsers = function(query, options, callback) {
+  this.find(query, options, function(err, res) {
     callback(err, res)
   });
 };
