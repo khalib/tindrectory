@@ -1,0 +1,19 @@
+{
+  "name": "directory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caleb Whang",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "hapi": "^10.5.0",
+    "log": "^1.4.0",
+    "mongodb": "^2.1.19",
+    "mongoose": "^4.4.17",
+    "underscore": "^1.8.3"
+  }
+}

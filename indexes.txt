@@ -1,0 +1,20 @@
+db.users.dropIndexes();
+db.users.createIndex({
+  firstName: 'text',
+  lastName: 'text',
+  title: 'text',
+  department: 'text',
+  description: 'text',
+  keywords: 'text',
+},
+{
+  weights: {
+    firstName: 1,
+    lastName: 1,
+    title: 10,
+    department: 5,
+    description: 20,
+    keywords: 15
+  },
+  name: 'TextIndex',
+});

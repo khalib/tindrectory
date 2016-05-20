@@ -1,0 +1,117 @@
+/* line 1, ../sass/main.scss */
+body {
+  padding-top: 40px;
+}
+
+/* line 5, ../sass/main.scss */
+.rating-star {
+  display: block;
+}
+/* line 7, ../sass/main.scss */
+.rating-star span {
+  display: none;
+}
+/* line 10, ../sass/main.scss */
+.rating-star.gray {
+  width: 80px;
+  height: 12px;
+  background: url("/static/images/template/rating_stars_gray.png") no-repeat;
+}
+/* line 14, ../sass/main.scss */
+.rating-star.gray.rating-0 {
+  background-position: 0 12px;
+}
+/* line 17, ../sass/main.scss */
+.rating-star.gray.rating-1 {
+  background-position: 0 0;
+}
+/* line 20, ../sass/main.scss */
+.rating-star.gray.rating-2 {
+  background-position: 0 -13px;
+}
+/* line 23, ../sass/main.scss */
+.rating-star.gray.rating-3 {
+  background-position: 0 -24px;
+}
+/* line 26, ../sass/main.scss */
+.rating-star.gray.rating-4 {
+  background-position: 0 -37px;
+}
+/* line 29, ../sass/main.scss */
+.rating-star.gray.rating-5 {
+  background-position: 0 -49px;
+}
+/* line 33, ../sass/main.scss */
+.rating-star.small {
+  width: 100px;
+  height: 15px;
+}
+/* line 36, ../sass/main.scss */
+.rating-star.small.teacher {
+  background: url("/static/images/template/rating_stars_teacher_small.png") no-repeat;
+}
+/* line 39, ../sass/main.scss */
+.rating-star.small.graphite {
+  background: url("/static/images/template/rating_stars_small.png") no-repeat;
+}
+/* line 42, ../sass/main.scss */
+.rating-star.small.rating-0 {
+  background-position: 0 20px;
+}
+/* line 45, ../sass/main.scss */
+.rating-star.small.rating-1 {
+  background-position: 0 0;
+}
+/* line 48, ../sass/main.scss */
+.rating-star.small.rating-2 {
+  background-position: 0 -16px;
+}
+/* line 51, ../sass/main.scss */
+.rating-star.small.rating-3 {
+  background-position: 0 -31px;
+}
+/* line 54, ../sass/main.scss */
+.rating-star.small.rating-4 {
+  background-position: 0 -46px;
+}
+/* line 57, ../sass/main.scss */
+.rating-star.small.rating-5 {
+  background-position: 0 -61px;
+}
+/* line 61, ../sass/main.scss */
+.rating-star.large {
+  width: 132px;
+  height: 20px;
+}
+/* line 64, ../sass/main.scss */
+.rating-star.large.teacher {
+  background: url("/static/images/template/rating_stars_teacher_large.png") no-repeat;
+}
+/* line 67, ../sass/main.scss */
+.rating-star.large.graphite {
+  background: url("/static/images/template/rating_stars_large.png") no-repeat;
+}
+/* line 70, ../sass/main.scss */
+.rating-star.large.rating-0 {
+  background-position: 0 20px;
+}
+/* line 73, ../sass/main.scss */
+.rating-star.large.rating-1 {
+  background-position: 0 0;
+}
+/* line 76, ../sass/main.scss */
+.rating-star.large.rating-2 {
+  background-position: 0 -20px;
+}
+/* line 79, ../sass/main.scss */
+.rating-star.large.rating-3 {
+  background-position: 0 -40px;
+}
+/* line 82, ../sass/main.scss */
+.rating-star.large.rating-4 {
+  background-position: 0 -60px;
+}
+/* line 85, ../sass/main.scss */
+.rating-star.large.rating-5 {
+  background-position: 0 -80px;
+}

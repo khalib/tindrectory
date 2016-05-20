@@ -1,0 +1,90 @@
+body {
+  padding-top: 40px;
+}
+
+.rating-star {
+  display: block;
+  span {
+    display: none;
+  }
+  &.gray {
+    width: 80px;
+    height: 12px;
+    background: url('/static/images/template/rating_stars_gray.png') no-repeat;
+    &.rating-0 {
+      background-position: 0 12px;
+    }
+    &.rating-1 {
+      background-position: 0 0;
+    }
+    &.rating-2 {
+      background-position: 0 -13px;
+    }
+    &.rating-3 {
+      background-position: 0 -24px;
+    }
+    &.rating-4 {
+      background-position: 0 -37px;
+    }
+    &.rating-5 {
+      background-position: 0 -49px;
+    }
+  }
+  &.small {
+    width: 100px;
+    height: 15px;
+    &.teacher {
+      background: url('/static/images/template/rating_stars_teacher_small.png') no-repeat;
+    }
+    &.graphite {
+      background: url('/static/images/template/rating_stars_small.png') no-repeat;
+    }
+    &.rating-0 {
+      background-position: 0 20px;
+    }
+    &.rating-1 {
+      background-position: 0 0;
+    }
+    &.rating-2 {
+      background-position: 0 -16px;
+    }
+    &.rating-3 {
+      background-position: 0 -31px;
+    }
+    &.rating-4 {
+      background-position: 0 -46px;
+    }
+    &.rating-5 {
+      background-position: 0 -61px;
+    }
+  }
+  &.large {
+    width: 132px;
+    height: 20px;
+    &.teacher {
+      background: url('/static/images/template/rating_stars_teacher_large.png') no-repeat;
+    }
+    &.graphite {
+      background: url('/static/images/template/rating_stars_large.png') no-repeat;
+    }
+    &.rating-0 {
+      background-position: 0 20px;
+    }
+    &.rating-1 {
+      background-position: 0 0;
+    }
+    &.rating-2 {
+      background-position: 0 -20px;
+    }
+    &.rating-3 {
+      background-position: 0 -40px;
+    }
+    &.rating-4 {
+      background-position: 0 -60px;
+    }
+    &.rating-5 {
+      background-position: 0 -80px;
+    }
+  }
+
+}
